@@ -32454,3 +32454,919 @@
 2018-11-16 19:16:03.80 (000) RS485 initialization with SLIP/TTY
 2018-11-16 19:16:03.82 (700) -> 10 84 <- ACY 
 2018-11-16 19:16:03.84 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:04.08 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:04.08 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:04.09 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:04.11 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:04.12 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:04.13 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:04.14 (700) -> 10 82 <- ACY 
+2018-11-16 20:25:04.16 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:04.17 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:04.18 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:04.19 (700) -> 10 e1 <- DSC 
+2018-11-16 20:25:04.21 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:25:04.73 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:04.73 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:04.74 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:04.76 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:05.29 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:05.29 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:05.30 (700) -> 10 e1 <- DSC 
+2018-11-16 20:25:05.32 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:25:05.84 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:05.84 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:05.85 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:05.87 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:06.38 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:06.39 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:06.39 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:06.41 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:06.93 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:06.93 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:06.93 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:06.95 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:07.47 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:07.47 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:07.48 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:07.50 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:08.02 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:08.02 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:08.02 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:08.04 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:08.56 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:08.56 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:08.57 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:08.59 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:09.10 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:09.11 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:09.12 (700) -> 10 e1 <- DSC 
+2018-11-16 20:25:09.14 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:25:09.66 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:09.66 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:09.67 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:09.69 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:10.21 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:10.21 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:10.22 (700) -> 10 e1 <- DSC 
+2018-11-16 20:25:10.24 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:25:10.76 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:10.76 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:10.77 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:10.79 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:11.31 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:11.31 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:11.31 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:11.33 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:11.85 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:11.85 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:11.86 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:11.88 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:12.40 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:12.40 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:12.40 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:12.42 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:12.94 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:12.94 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:12.94 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:12.96 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:13.48 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:13.49 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:13.49 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:13.51 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:14.03 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:14.03 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:14.03 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:14.05 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:14.57 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:14.57 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:14.57 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:14.59 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:15.11 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:15.11 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:15.12 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:15.14 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:15.66 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:15.66 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:15.66 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:15.68 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:16.20 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:16.20 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:16.20 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:16.22 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:16.74 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:16.74 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:16.75 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:16.77 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:17.28 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:17.29 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:17.29 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:17.31 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:17.83 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:17.83 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:17.83 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:17.85 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:18.37 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:18.38 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:18.39 (700) -> 10 e1 <- DSC 
+2018-11-16 20:25:18.41 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:25:18.93 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:18.93 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:18.94 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:18.96 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:19.48 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:19.48 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:19.49 (700) -> 10 e1 <- DSC 
+2018-11-16 20:25:19.51 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:25:20.03 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:20.03 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:20.04 (700) -> 10 e1 <- 00 
+2018-11-16 20:25:20.06 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:20.58 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:20.58 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:20.59 (700) -> 10 e1 <- DSC 
+2018-11-16 20:25:20.62 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:25:21.13 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:21.14 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:21.14 (700) -> 10 e1 <- 02 
+2018-11-16 20:25:21.16 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:25:21.68 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:25:21.68 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:25:21.69 (700) -> 10 88 <- ACY 
+2018-11-16 20:25:21.71 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:53:18.17 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:53:18.17 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:53:18.17 (700) -> 10 e1 <- 02 
+2018-11-16 20:53:18.19 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:53:18.21 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:53:18.21 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:53:18.22 (700) -> 10 88 <- ACY 
+2018-11-16 20:53:18.24 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:54:20.91 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:54:20.91 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:54:20.92 (700) -> 10 87 <- ACY 
+2018-11-16 20:54:20.94 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:54:20.96 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:54:20.96 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:54:20.97 (700) -> 10 34 40 10 <- DSC 
+2018-11-16 20:54:20.99 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:54:21.00 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:54:21.01 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:54:21.02 (700) -> 10 36 70 00 <- DSC 
+2018-11-16 20:54:21.04 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:54:22.66 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:54:22.66 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:54:22.68 (700) -> 10 e1 <- DSC 
+2018-11-16 20:54:22.70 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:54:22.71 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:54:22.71 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:54:22.73 (700) -> 10 82 <- DSC 
+2018-11-16 20:54:22.75 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:54:22.77 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:54:22.77 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:54:22.78 (700) -> 10 e1 <- 02 
+2018-11-16 20:54:22.80 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:54:23.32 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:54:23.32 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:54:23.33 (700) -> 10 88 <- DSC 
+2018-11-16 20:54:23.35 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:54:23.37 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:54:23.38 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:54:23.38 (700) -> 10 88 <- ACY 
+2018-11-16 20:54:23.40 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:16.54 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:16.54 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:16.55 (700) -> 10 e1 <- DSC 
+2018-11-16 20:55:16.57 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:55:16.59 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:16.59 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:16.60 (700) -> 10 82 <- DSC 
+2018-11-16 20:55:16.62 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:55:16.64 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:16.64 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:16.65 (700) -> 10 e1 <- DSC 
+2018-11-16 20:55:16.67 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:55:17.19 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:17.19 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:17.20 (700) -> 10 e1 <- 02 
+2018-11-16 20:55:17.22 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:17.73 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:17.74 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:17.75 (700) -> 10 88 <- DSC 
+2018-11-16 20:55:17.78 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:55:17.79 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:17.79 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:17.80 (700) -> 10 88 <- ACY 
+2018-11-16 20:55:17.82 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:20.26 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:20.26 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:20.27 (700) -> 10 a0 <- 00 00 00 
+2018-11-16 20:55:20.29 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:20.30 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:20.31 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:20.31 (700) -> 10 03 00 00 00 <- ACY 
+2018-11-16 20:55:20.34 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:20.35 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:20.35 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:20.36 (700) -> 10 84 <- ACY 
+2018-11-16 20:55:20.38 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:25.62 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:25.62 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:25.64 (700) -> 10 a0 <- DSC 
+2018-11-16 20:55:25.66 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:55:25.67 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:25.67 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:25.69 (700) -> 10 a0 <- DSC 
+2018-11-16 20:55:25.71 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:55:25.82 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:25.82 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:25.83 (700) -> 10 a0 <- 00 00 00 
+2018-11-16 20:55:25.85 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:25.97 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:25.97 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:25.97 (700) -> 10 03 23 0f 00 <- ACY 
+2018-11-16 20:55:26.00 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:26.01 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:26.02 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:26.02 (700) -> 10 84 <- ACY 
+2018-11-16 20:55:26.04 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:49.42 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:49.43 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:49.43 (700) -> 10 a0 <- 23 0f 00 
+2018-11-16 20:55:49.45 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:49.47 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:49.47 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:49.48 (700) -> 10 03 44 88 00 <- ACY 
+2018-11-16 20:55:49.50 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:49.51 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:49.52 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:49.53 (700) -> 10 84 <- ACY 
+2018-11-16 20:55:49.55 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:58.39 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:58.39 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:58.40 (700) -> 10 a0 <- DSC 
+2018-11-16 20:55:58.42 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:55:58.44 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:58.44 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:58.45 (700) -> 10 a0 <- 67 97 00 
+2018-11-16 20:55:58.47 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:58.59 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:58.59 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:58.60 (700) -> 10 03 99 68 ff <- ACY 
+2018-11-16 20:55:58.62 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:55:58.63 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:55:58.64 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:55:58.64 (700) -> 10 84 <- ACY 
+2018-11-16 20:55:58.66 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:07.84 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:07.84 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:07.85 (700) -> 10 a0 <- 00 00 00 
+2018-11-16 20:56:07.87 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:07.89 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:07.89 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:07.90 (700) -> 10 03 0b 16 00 <- ACY 
+2018-11-16 20:56:07.92 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:07.93 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:07.94 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:07.95 (700) -> 10 84 <- ACY 
+2018-11-16 20:56:07.97 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:29.58 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:29.59 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:29.60 (700) -> 10 87 <- ACY 
+2018-11-16 20:56:29.62 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:29.63 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:29.64 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:29.64 (700) -> 10 34 40 10 <- ACY 
+2018-11-16 20:56:29.66 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:29.68 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:29.68 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:29.69 (700) -> 10 36 70 00 <- ACY 
+2018-11-16 20:56:29.71 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:31.29 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:31.29 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:31.30 (700) -> 10 e1 <- DSC 
+2018-11-16 20:56:31.32 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:56:31.33 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:31.34 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:31.35 (700) -> 10 82 <- DSC 
+2018-11-16 20:56:31.37 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:56:31.38 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:31.39 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:31.40 (700) -> 10 e1 <- DSC 
+2018-11-16 20:56:31.42 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:56:31.93 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:31.94 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:31.94 (700) -> 10 e1 <- 00 
+2018-11-16 20:56:31.97 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:32.48 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:32.49 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:32.50 (700) -> 10 e1 <- DSC 
+2018-11-16 20:56:32.52 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:56:33.04 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:33.04 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:33.05 (700) -> 10 e1 <- 00 
+2018-11-16 20:56:33.07 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:33.59 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:33.59 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:33.59 (700) -> 10 e1 <- 00 
+2018-11-16 20:56:33.61 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:34.13 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:34.13 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:34.14 (700) -> 10 e1 <- 02 
+2018-11-16 20:56:34.16 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:34.67 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:34.68 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:34.68 (700) -> 10 88 <- ACY 
+2018-11-16 20:56:34.70 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:38.77 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:38.77 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:38.78 (700) -> 10 a0 <- DSC 
+2018-11-16 20:56:38.80 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:56:38.82 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:38.82 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:38.83 (700) -> 10 a0 <- DSC 
+2018-11-16 20:56:38.85 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:56:38.97 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:38.97 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:38.98 (700) -> 10 a0 <- 29 00 00 
+2018-11-16 20:56:39.00 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:39.12 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:39.12 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:39.13 (700) -> 10 03 fa 0e 00 <- ACY 
+2018-11-16 20:56:39.15 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:39.16 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:39.16 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:39.17 (700) -> 10 84 <- ACY 
+2018-11-16 20:56:39.19 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:43.43 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:43.43 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:43.44 (700) -> 10 a0 <- DSC 
+2018-11-16 20:56:43.46 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:56:43.48 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:43.48 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:43.49 (700) -> 10 a0 <- 23 0f 00 
+2018-11-16 20:56:43.51 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:43.63 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:43.63 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:43.63 (700) -> 10 03 24 0f 00 <- ACY 
+2018-11-16 20:56:43.65 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:56:43.67 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:56:43.67 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:56:43.68 (700) -> 10 84 <- ACY 
+2018-11-16 20:56:43.70 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:33.86 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:33.86 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:33.87 (700) -> 10 e1 <- DSC 
+2018-11-16 20:57:33.89 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:57:33.91 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:33.91 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:33.92 (700) -> 10 82 <- ACY 
+2018-11-16 20:57:33.94 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:33.95 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:33.96 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:33.97 (700) -> 10 e1 <- 00 
+2018-11-16 20:57:33.99 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:34.51 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:34.51 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:34.51 (700) -> 10 e1 <- 00 
+2018-11-16 20:57:34.53 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:35.05 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:35.06 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:35.07 (700) -> 10 e1 <- DSC 
+2018-11-16 20:57:35.09 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:57:35.60 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:35.61 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:35.62 (700) -> 10 e1 <- 00 
+2018-11-16 20:57:35.64 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:36.15 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:36.16 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:36.16 (700) -> 10 e1 <- 00 
+2018-11-16 20:57:36.18 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:36.70 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:36.70 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:36.71 (700) -> 10 e1 <- DSC 
+2018-11-16 20:57:36.73 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:57:37.25 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:37.25 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:37.26 (700) -> 10 e1 <- 00 
+2018-11-16 20:57:37.28 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:37.80 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:37.80 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:37.81 (700) -> 10 e1 <- 02 
+2018-11-16 20:57:37.83 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:38.34 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:38.35 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:38.35 (700) -> 10 88 <- ACY 
+2018-11-16 20:57:38.37 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:49.38 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:49.39 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:49.40 (700) -> 10 a0 <- 08 00 00 
+2018-11-16 20:57:49.42 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:49.43 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:49.44 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:49.45 (700) -> 10 03 1b 0f 00 <- ACY 
+2018-11-16 20:57:49.47 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:57:49.48 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:57:49.48 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:57:49.49 (700) -> 10 84 <- ACY 
+2018-11-16 20:57:49.51 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:18.48 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:18.48 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:18.49 (700) -> 10 e1 <- 00 
+2018-11-16 20:58:18.51 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:18.52 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:18.52 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:18.53 (700) -> 10 82 <- ACY 
+2018-11-16 20:58:18.55 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:18.57 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:18.57 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:18.58 (700) -> 10 e1 <- 00 
+2018-11-16 20:58:18.60 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:19.12 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:19.12 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:19.12 (700) -> 10 e1 <- 00 
+2018-11-16 20:58:19.14 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:19.66 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:19.66 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:19.67 (700) -> 10 e1 <- 00 
+2018-11-16 20:58:19.69 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:20.20 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:20.21 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:20.21 (700) -> 10 e1 <- 00 
+2018-11-16 20:58:20.23 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:20.75 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:20.75 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:20.77 (700) -> 10 e1 <- DSC 
+2018-11-16 20:58:20.79 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:58:21.30 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:21.31 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:21.31 (700) -> 10 e1 <- 02 
+2018-11-16 20:58:21.34 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:21.85 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:21.85 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:21.86 (700) -> 10 88 <- ACY 
+2018-11-16 20:58:21.88 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:32.90 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:32.91 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:32.92 (700) -> 10 a0 <- DSC 
+2018-11-16 20:58:32.94 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:58:32.95 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:32.96 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:32.97 (700) -> 10 a0 <- DSC 
+2018-11-16 20:58:32.99 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:58:33.11 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:33.11 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:33.11 (700) -> 10 a0 <- 13 00 00 
+2018-11-16 20:58:33.13 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:33.25 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:33.26 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:33.26 (700) -> 10 03 54 97 00 <- ACY 
+2018-11-16 20:58:33.28 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:33.30 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:33.30 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:33.31 (700) -> 10 84 <- ACY 
+2018-11-16 20:58:33.33 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:49.39 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:49.39 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:49.41 (700) -> 10 a0 <- DSC 
+2018-11-16 20:58:49.43 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:58:49.44 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:49.45 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:49.46 (700) -> 10 a0 <- 67 97 00 
+2018-11-16 20:58:49.48 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:49.59 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:49.59 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:49.60 (700) -> 10 03 b4 4b 00 <- ACY 
+2018-11-16 20:58:49.62 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:58:49.63 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:58:49.64 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:58:49.65 (700) -> 10 84 <- ACY 
+2018-11-16 20:58:49.67 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:36.25 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:36.25 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:36.26 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:36.29 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:36.30 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:36.30 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:36.31 (700) -> 10 82 <- DSC 
+2018-11-16 20:59:36.33 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:36.35 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:36.35 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:36.36 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:36.38 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:36.90 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:36.90 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:36.91 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:36.93 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:37.44 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:37.45 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:37.45 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:37.47 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:37.99 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:37.99 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:37.99 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:38.01 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:38.53 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:38.54 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:38.55 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:38.57 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:39.08 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:39.09 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:39.10 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:39.12 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:39.64 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:39.64 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:39.64 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:39.66 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:40.18 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:40.18 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:40.18 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:40.21 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:40.72 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:40.72 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:40.73 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:40.75 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:41.27 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:41.27 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:41.28 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:41.30 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:41.82 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:41.82 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:41.83 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:41.85 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:42.37 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:42.37 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:42.37 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:42.40 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:42.91 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:42.91 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:42.92 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:42.94 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:43.46 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:43.46 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:43.46 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:43.48 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:44.00 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:44.00 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:44.02 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:44.04 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:44.55 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:44.56 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:44.57 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:44.59 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:45.10 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:45.10 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:45.11 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:45.13 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:45.65 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:45.65 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:45.65 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:45.67 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:46.19 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:46.19 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:46.20 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:46.22 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:46.73 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:46.74 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:46.74 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:46.76 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:47.28 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:47.28 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:47.28 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:47.30 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:47.82 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:47.82 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:47.83 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:47.85 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:48.36 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:48.37 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:48.37 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:48.39 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:48.91 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:48.91 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:48.92 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:48.94 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:49.46 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:49.46 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:49.47 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:49.49 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:50.01 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:50.01 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:50.02 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:50.04 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:50.55 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:50.56 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:50.56 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:50.58 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:51.10 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:51.10 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:51.10 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:51.12 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:51.64 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:51.65 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:51.66 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:51.68 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:52.19 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:52.20 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:52.21 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:52.23 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:52.74 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:52.75 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:52.75 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:52.77 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:53.29 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:53.29 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:53.30 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:53.33 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:53.84 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:53.85 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:53.85 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:53.87 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:54.39 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:54.40 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:54.40 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:54.42 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:54.94 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:54.94 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:54.94 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:54.96 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:55.48 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:55.48 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:55.49 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:55.51 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:56.02 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:56.03 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:56.03 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:56.05 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:56.57 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:56.57 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:56.57 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:56.59 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:57.11 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:57.11 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:57.12 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:57.14 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:57.66 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:57.66 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:57.67 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:57.69 (000) Packets total: 1 Errors total: 1
+2018-11-16 20:59:58.21 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:58.21 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:58.22 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:58.24 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:58.76 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:58.76 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:58.76 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:58.78 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:59.30 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:59.30 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:59.31 (700) -> 10 e1 <- 00 
+2018-11-16 20:59:59.33 (000) Packets total: 1 Errors total: 0
+2018-11-16 20:59:59.85 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 20:59:59.85 (000) RS485 initialization with SLIP/TTY
+2018-11-16 20:59:59.86 (700) -> 10 e1 <- DSC 
+2018-11-16 20:59:59.88 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:00:00.40 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:00.40 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:00.41 (700) -> 10 e1 <- 00 
+2018-11-16 21:00:00.43 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:00.95 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:00.95 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:00.95 (700) -> 10 e1 <- 00 
+2018-11-16 21:00:00.97 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:01.49 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:01.50 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:01.51 (700) -> 10 e1 <- DSC 
+2018-11-16 21:00:01.53 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:00:02.05 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:02.05 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:02.06 (700) -> 10 e1 <- 02 
+2018-11-16 21:00:02.08 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:02.59 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:02.60 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:02.60 (700) -> 10 88 <- ACY 
+2018-11-16 21:00:02.62 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:41.03 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:41.04 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:41.05 (700) -> 10 a0 <- DSC 
+2018-11-16 21:00:41.07 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:00:41.08 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:41.08 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:41.10 (700) -> 10 a0 <- DSC 
+2018-11-16 21:00:41.12 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:00:41.23 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:41.24 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:41.24 (700) -> 10 a0 <- 3a 00 00 
+2018-11-16 21:00:41.26 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:41.38 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:41.38 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:41.39 (700) -> 10 03 31 2d 00 <- ACY 
+2018-11-16 21:00:41.41 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:41.42 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:41.42 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:41.43 (700) -> 10 84 <- ACY 
+2018-11-16 21:00:41.45 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:56.95 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:56.95 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:56.96 (700) -> 10 a0 <- 6b 2d 00 
+2018-11-16 21:00:56.98 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:56.99 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:56.99 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:57.00 (700) -> 10 03 6c 2d 00 <- ACY 
+2018-11-16 21:00:57.02 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:00:57.04 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:00:57.04 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:00:57.05 (700) -> 10 84 <- ACY 
+2018-11-16 21:00:57.07 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:03:17.31 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:03:17.31 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:03:17.31 (700) -> 10 a0 <- d7 5a 00 
+2018-11-16 21:03:17.33 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:03:17.35 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:03:17.35 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:03:17.36 (700) -> 10 03 fc 69 00 <- ACY 
+2018-11-16 21:03:17.38 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:03:17.40 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:03:17.40 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:03:17.41 (700) -> 10 84 <- ACY 
+2018-11-16 21:03:17.43 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:29.81 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:29.81 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:29.82 (700) -> 10 a0 <- d3 c4 00 
+2018-11-16 21:04:29.84 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:29.85 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:29.86 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:29.87 (700) -> 10 03 90 3c 00 <- ACY 
+2018-11-16 21:04:29.89 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:29.90 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:29.91 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:29.92 (700) -> 10 84 <- ACY 
+2018-11-16 21:04:29.94 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:35.30 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:35.30 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:35.31 (700) -> 10 a0 <- DSC 
+2018-11-16 21:04:35.34 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:04:35.35 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:35.36 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:35.37 (700) -> 10 a0 <- 63 01 01 
+2018-11-16 21:04:35.39 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:35.51 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:35.51 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:35.51 (700) -> 10 03 6c 2d 00 <- ACY 
+2018-11-16 21:04:35.53 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:35.55 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:35.55 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:35.56 (700) -> 10 84 <- ACY 
+2018-11-16 21:04:35.58 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:40.89 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:40.90 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:40.90 (700) -> 10 a0 <- cf 2e 01 
+2018-11-16 21:04:40.92 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:40.94 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:40.94 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:40.95 (700) -> 10 03 48 1e 00 <- ACY 
+2018-11-16 21:04:40.97 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:40.99 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:40.99 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:40.99 (700) -> 10 84 <- ACY 
+2018-11-16 21:04:41.01 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:59.92 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:59.92 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:59.92 (700) -> 10 a0 <- 17 4d 01 
+2018-11-16 21:04:59.95 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:04:59.96 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:04:59.96 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:04:59.97 (700) -> 10 03 e9 b2 fe <- ACY 
+2018-11-16 21:04:59.99 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:05:00.01 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:00.01 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:00.02 (700) -> 10 84 <- ACY 
+2018-11-16 21:05:00.04 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:05:39.86 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:39.86 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:39.87 (700) -> 10 87 <- DSC 
+2018-11-16 21:05:39.89 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:05:39.91 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:39.91 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:39.92 (700) -> 10 34 40 10 <- ACY 
+2018-11-16 21:05:39.94 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:05:39.95 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:39.96 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:39.97 (700) -> 10 36 70 00 <- DSC 
+2018-11-16 21:05:39.99 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:05:42.48 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:42.48 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:42.50 (700) -> 10 87 <- ACY 
+2018-11-16 21:05:42.52 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:05:42.53 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:42.54 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:42.54 (700) -> 10 34 40 10 <- ACY 
+2018-11-16 21:05:42.56 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:05:42.58 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:42.58 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:42.59 (700) -> 10 36 70 00 <- ACY 
+2018-11-16 21:05:42.61 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:05:46.41 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:46.41 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:46.42 (700) -> 10 e1 <- 02 
+2018-11-16 21:05:46.44 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:05:46.45 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:05:46.46 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:05:46.46 (700) -> 10 88 <- ACY 
+2018-11-16 21:05:46.49 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:06:23.55 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:06:23.55 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:06:23.55 (700) -> 10 a0 <- 00 00 00 
+2018-11-16 21:06:23.58 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:06:23.59 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:06:23.60 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:06:23.61 (700) -> 10 03 cf ae 00 <- ACY 
+2018-11-16 21:06:23.63 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:06:23.64 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:06:23.64 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:06:23.65 (700) -> 10 84 <- ACY 
+2018-11-16 21:06:23.67 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:07:44.58 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:07:44.58 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:07:44.59 (700) -> 10 a0 <- cf ae 00 
+2018-11-16 21:07:44.61 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:07:44.62 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:07:44.63 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:07:44.63 (700) -> 10 03 cb 9f 00 <- ACY 
+2018-11-16 21:07:44.65 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:07:44.67 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:07:44.67 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:07:44.68 (700) -> 10 84 <- ACY 
+2018-11-16 21:07:44.70 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:07:55.42 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:07:55.42 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:07:55.42 (700) -> 10 a0 <- 9a 4e 01 
+2018-11-16 21:07:55.44 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:07:55.46 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:07:55.46 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:07:55.47 (700) -> 10 03 66 b1 fe <- ACY 
+2018-11-16 21:07:55.49 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:07:55.51 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:07:55.51 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:07:55.52 (700) -> 10 84 <- ACY 
+2018-11-16 21:07:55.54 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:08:28.65 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:28.65 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:28.66 (700) -> 10 e1 <- DSC 
+2018-11-16 21:08:28.68 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:08:28.69 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:28.70 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:28.71 (700) -> 10 82 <- DSC 
+2018-11-16 21:08:28.73 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:08:28.74 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:28.74 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:28.75 (700) -> 10 e1 <- DSC 
+2018-11-16 21:08:28.78 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:08:29.29 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:29.30 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:29.30 (700) -> 10 e1 <- 02 
+2018-11-16 21:08:29.32 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:08:29.84 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:29.84 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:29.86 (700) -> 10 88 <- DSC 
+2018-11-16 21:08:29.88 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:08:29.89 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:29.90 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:29.91 (700) -> 10 88 <- DSC 
+2018-11-16 21:08:29.93 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:08:30.05 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:30.05 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:30.05 (700) -> 10 88 <- ACY 
+2018-11-16 21:08:30.07 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:08:36.50 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:36.50 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:36.51 (700) -> 10 a0 <- DSC 
+2018-11-16 21:08:36.53 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:08:36.54 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:36.55 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:36.56 (700) -> 10 a0 <- DSC 
+2018-11-16 21:08:36.58 (000) Packets total: 1 Errors total: 1
+2018-11-16 21:08:36.70 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:36.70 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:36.70 (700) -> 10 a0 <- 00 00 00 
+2018-11-16 21:08:36.72 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:08:36.84 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:36.84 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:36.85 (700) -> 10 03 67 97 00 <- ACY 
+2018-11-16 21:08:36.87 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:08:36.88 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:36.89 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:36.89 (700) -> 10 84 <- ACY 
+2018-11-16 21:08:36.92 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:08:48.88 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:48.88 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:48.88 (700) -> 10 a0 <- 67 97 00 
+2018-11-16 21:08:48.90 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:08:48.92 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:48.92 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:48.93 (700) -> 10 03 68 97 00 <- ACY 
+2018-11-16 21:08:48.95 (000) Packets total: 1 Errors total: 0
+2018-11-16 21:08:48.97 avrup 1.31 Compiled 17:08:05 Nov  8 2018
+2018-11-16 21:08:48.98 (000) RS485 initialization with SLIP/TTY
+2018-11-16 21:08:48.98 (700) -> 10 84 <- ACY 
+2018-11-16 21:08:49.00 (000) Packets total: 1 Errors total: 0

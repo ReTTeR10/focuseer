@@ -13,6 +13,12 @@ def operate(command):
     result = process_wc.communicate()[0]
     return result.decode()
 
+def mm_to_pos(mm_value):
+    return int(3875.968992248062 * mm_value) 
+
+def pos_to_mm(pos):
+    return 0.000258 * pos
+
 def byte_to_pos(byte_string):
     pos = int("".join(byte_string.split(" ")[::-1]), 16)
     return pos
@@ -39,15 +45,16 @@ def main():
     1) init - initialize controller
     2) home - move focuseer to limit switch
     3) move - move focuseer (need stop)
-    4) stop - stop moving
-    5) exit or quit - exit programm
+    4) getpos - get current position
+    5) stop - stop moving
+    6) exit or quit - exit programm
     ''')
 
 
     while(True):
         input_str = input(">> ")
 
-        p = re.compile(r"move [\d]+")
+        p = re.compile(r"move ([0-9]*[.])?[0-9]+")
         match = p.match(input_str)
 
         if input_str == "init":
@@ -95,12 +102,17 @@ def main():
         elif input_str == "stop":
             args = '10 80'
             result = operate(args)
+
+            args = '10 86'
+            result = operate(args)
+
             if "ACY" in str(result) or "DCS" in str(result): 
                 print("stop ready")
                 stoped = True
         
         elif match:
-            target_position = int(match[0].replace("move ", ""))
+            target_position = mm_to_pos(float(match[0].replace("move ", "")))
+            # print(target_position)
             cmd = "10 a0"                # Read current absolut position
             result = operate(cmd)
             while "DSC" in result and "Data 3 bytes" not in result:
@@ -109,13 +121,21 @@ def main():
 
             current_position = byte_to_pos(result[51:-3])
             cmd  = "10 03 " + pos_to_byte(target_position - current_position) #set target position
-            print(target_position - current_position)
-            print(cmd)
+            #printtarget_position - current_position)
+            #print(cmd)
             result = operate(cmd)
             cmd = "10 84"                  # Move to target position    
             result = operate(cmd)
             
-            
+        elif input_str == "getpos":
+            cmd = "10 a0"                # Read current absolut position
+            result = operate(cmd)
+            while "DSC" in result and "Data 3 bytes" not in result:
+                result = operate(cmd)
+                time.sleep(0.1)
+
+            current_position = byte_to_pos(result[51:-3])
+            #print(pos_to_mm(current_position))
 
 
         elif input_str == "exit" or input_str == "quit":
