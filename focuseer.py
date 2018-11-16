@@ -3,7 +3,6 @@ import subprocess
 import re
 import time
  
-
 def operate(command):
     args = ['printf']
     args.append(command)
@@ -13,6 +12,14 @@ def operate(command):
     process_curl.stdout.close()
     result = process_wc.communicate()[0]
     return result.decode()
+
+def byte_to_pos(byte_string):
+    pos = 0
+    return pos
+
+def pos_to_byte(position):
+    byte_string = "00 00 00"
+    return byte_string
 
 def main():
     device = "/dev/ttyUSB0"
@@ -59,8 +66,13 @@ def main():
                     print('.', end='', flush=True)
                     time.sleep(0.5)
                 print()
+            
+            cmd = "10 88"
+            result = operate(cmd)
+            while "ACY" not in result:
+                result = operate(cmd)
+                time.sleep(0.1)
                 
-
             print("Home ready")
             homed = True
         
@@ -72,26 +84,27 @@ def main():
                 print("stop ready")
                 stoped = True
 
-        # elif input_str == "move":
-        #     args = ['printf', '10 81']
-        #     result = operate(args)
-        #     print(result)
-        #     print("move accept")
-        #     if "ACY" in str(result) or "DCS" in str(result): 
-        #         print("moving...")
-        #         args = ['printf', '10 a0']
-        #         while True:
-        #             result = operate(args)
-        #             pos = 0
-        #             print(result)
-        #             try:
-        #                 pos = int("".join(result.replace("<Data 3 bytes: ", "").split(" ")[::-1]), 16)
-        #                 print("Position = {}".format(pos))
-        #             except:
-        #                 pass
-        #             if pos >= 60000:
-        #                 print("ready")
-        #                 break
+        elif input_str == "move":
+            pass
+            # args = ['printf', '10 81']
+            # result = operate(args)
+            # print(result)
+            # print("move accept")
+            # if "ACY" in str(result) or "DCS" in str(result): 
+            #     print("moving...")
+            #     args = ['printf', '10 a0']
+            #     while True:
+            #         result = operate(args)
+            #         pos = 0
+            #         print(result)
+            #         try:
+            #             pos = int("".join(result.replace("<Data 3 bytes: ", "").split(" ")[::-1]), 16)
+            #             print("Position = {}".format(pos))
+            #         except:
+            #             pass
+            #         if pos >= 60000:
+            #             print("ready")
+            #             break
                 
         elif input_str == "exit" or input_str == "quit":
             break
