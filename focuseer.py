@@ -14,11 +14,18 @@ def operate(command):
     return result.decode()
 
 def byte_to_pos(byte_string):
-    pos = 0
+    pos = int("".join(byte_string.split(" ")[::-1]), 16)
     return pos
 
 def pos_to_byte(position):
     byte_string = "00 00 00"
+    if position >= 0:
+        unshifted_hex = "{:06x}".format(position)
+        byte_string = unshifted_hex[4:6] + " " + unshifted_hex[2:4] + " " + unshifted_hex[0:2]
+    else:
+        unshifted_hex = "{:06x}".format(int("0xffffff", base=16) + 1 + position)[-6:]
+        byte_string = unshifted_hex[4:6] + " " + unshifted_hex[2:4] + " " + unshifted_hex[0:2]
+
     return byte_string
 
 def main():
@@ -39,14 +46,23 @@ def main():
 
     while(True):
         input_str = input(">> ")
+
+        p = re.compile(r"move [\d]+")
+        match = p.match(input_str)
+
         if input_str == "init":
             cmd = '10 87'
             result = operate(cmd)
+            cmd = '10 34 40 10'
+            result = operate(cmd)
+            cmd = '10 36 70 00'
+            result = operate(cmd)
+
             if "ACY" in str(result) or "DCS" in str(result): 
                 print("init ready")
 
         elif input_str == "home":
-            cmd = "10 e1"
+            cmd = "10 e1"                # check teminal swich
             result = operate(cmd)
             while "DCS" in result:
                 result = operate(cmd)
@@ -54,28 +70,27 @@ def main():
             
             if "02" not in result:
                 homed = False
-                cmd = "10 82"
+                cmd = "10 82"            # move until terminal swich reached
                 result = ""
                 result = operate(cmd)
 
-                cmd = "10 e1"
+                cmd = "10 e1"            # check terminal swich 
 
-                while "02" not in str(result):       # <Data 1 bytes: 02         00 - NOT HOME
+                while "02" not in str(result):       # <Data 1 bytes: 02   00 - NOT HOME
                     result = operate(cmd)
                     #print(result)
                     print('.', end='', flush=True)
                     time.sleep(0.5)
                 print()
             
-            cmd = "10 88"
+            cmd = "10 88"               # Reset asbolute position counter
             result = operate(cmd)
             while "ACY" not in result:
                 result = operate(cmd)
                 time.sleep(0.1)
-                
+
             print("Home ready")
             homed = True
-        
         
         elif input_str == "stop":
             args = '10 80'
@@ -83,29 +98,26 @@ def main():
             if "ACY" in str(result) or "DCS" in str(result): 
                 print("stop ready")
                 stoped = True
+        
+        elif match:
+            target_position = int(match[0].replace("move ", ""))
+            cmd = "10 a0"                # Read current absolut position
+            result = operate(cmd)
+            while "DSC" in result and "Data 3 bytes" not in result:
+                result = operate(cmd)
+                time.sleep(0.1)
 
-        elif input_str == "move":
-            pass
-            # args = ['printf', '10 81']
-            # result = operate(args)
-            # print(result)
-            # print("move accept")
-            # if "ACY" in str(result) or "DCS" in str(result): 
-            #     print("moving...")
-            #     args = ['printf', '10 a0']
-            #     while True:
-            #         result = operate(args)
-            #         pos = 0
-            #         print(result)
-            #         try:
-            #             pos = int("".join(result.replace("<Data 3 bytes: ", "").split(" ")[::-1]), 16)
-            #             print("Position = {}".format(pos))
-            #         except:
-            #             pass
-            #         if pos >= 60000:
-            #             print("ready")
-            #             break
-                
+            current_position = byte_to_pos(result[51:-3])
+            cmd  = "10 03 " + pos_to_byte(target_position - current_position) #set target position
+            print(target_position - current_position)
+            print(cmd)
+            result = operate(cmd)
+            cmd = "10 84"                  # Move to target position    
+            result = operate(cmd)
+            
+            
+
+
         elif input_str == "exit" or input_str == "quit":
             break
         
