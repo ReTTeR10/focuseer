@@ -11,7 +11,12 @@ def operate(command):
     process_wc = subprocess.Popen(args2, stdin=process_curl.stdout,stdout=subprocess.PIPE, shell=False)
     process_curl.stdout.close()
     result = process_wc.communicate()[0]
-    return result.decode()
+    result = result.decode()
+    if "null" in result:
+        print("Connection error! Please check RS485 and usb connection!")
+        exit(0)
+    else:
+        return result
 
 def mm_to_pos(mm_value):
     return int(3875.968992248062 * mm_value) 
@@ -33,13 +38,19 @@ def pos_to_byte(position):
         byte_string = unshifted_hex[4:6] + " " + unshifted_hex[2:4] + " " + unshifted_hex[0:2]
 
     return byte_string
+def comand_result(command, include, exclude):       #include must be in result and exclude must be not in result   
+    result = operate(command)
+    while exclude in result and include not in result:
+            result = operate(command)
+            time.sleep(0.1)
+    return result
 
 def main():
     device = "/dev/ttyUSB0"
     baud = "115"
     homed = False
     stoped = False
-    home_cmd = "10 81"
+    limit_pos = 22.0
     print('''
     Allowed commands: \n 
     1) init - initialize controller
@@ -58,22 +69,19 @@ def main():
         match = p.match(input_str)
 
         if input_str == "init":
+            homed = False
             cmd = '10 87'
-            result = operate(cmd)
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
             cmd = '10 34 40 10'
-            result = operate(cmd)
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
             cmd = '10 36 70 00'
-            result = operate(cmd)
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
+            print("init ready")
 
-            if "ACY" in str(result) or "DCS" in str(result): 
-                print("init ready")
 
         elif input_str == "home":
             cmd = "10 e1"                # check teminal swich
-            result = operate(cmd)
-            while "DCS" in result:
-                result = operate(cmd)
-                time.sleep(0.1)
+            result = comand_result(command=cmd, include="Data 1 bytes", exclude="DSC")
             
             if "02" not in result:
                 homed = False
@@ -83,7 +91,7 @@ def main():
 
                 cmd = "10 e1"            # check terminal swich 
 
-                while "02" not in str(result):       # <Data 1 bytes: 02   00 - NOT HOME
+                while "02" not in result:       # <Data 1 bytes: 02   00 - NOT HOME
                     result = operate(cmd)
                     #print(result)
                     print('.', end='', flush=True)
@@ -91,52 +99,47 @@ def main():
                 print()
             
             cmd = "10 88"               # Reset asbolute position counter
-            result = operate(cmd)
-            while "ACY" not in result:
-                result = operate(cmd)
-                time.sleep(0.1)
-
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
             print("Home ready")
             homed = True
         
         elif input_str == "stop":
-            args = '10 80'
-            result = operate(args)
-
-            args = '10 86'
-            result = operate(args)
-
-            if "ACY" in str(result) or "DCS" in str(result): 
-                print("stop ready")
-                stoped = True
+            cmd = '10 80'
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
+            cmd = '10 86'
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
+            print("stop ready")
+            stoped = True
         
         elif match:
-            target_position = mm_to_pos(float(match[0].replace("move ", "")))
-            # print(target_position)
-            cmd = "10 a0"                # Read current absolut position
-            result = operate(cmd)
-            while "DSC" in result and "Data 3 bytes" not in result:
-                result = operate(cmd)
-                time.sleep(0.1)
+            if homed:
+                target_position_mm = float(match[0].replace("move ", ""))
+                if target_position_mm <= limit_pos:
+                    target_position = mm_to_pos(target_position_mm)
+                    cmd = "10 a0"               # Read current absolut position
+                    result = comand_result(command=cmd, include="Data 3 bytes", exclude="DSC")
+                    current_position = byte_to_pos(result[51:-3])
+                
+                    cmd  = "10 03 " + pos_to_byte(target_position - current_position) #set target position
+                    result = operate(cmd)
+                
+                    cmd = "10 84"                  # Move to target position    
+                    result = operate(cmd)
+                else:
+                    print("Target position to match!\nPlease set value in range 0...22.0 mm")
 
-            current_position = byte_to_pos(result[51:-3])
-            cmd  = "10 03 " + pos_to_byte(target_position - current_position) #set target position
-            #printtarget_position - current_position)
-            #print(cmd)
-            result = operate(cmd)
-            cmd = "10 84"                  # Move to target position    
-            result = operate(cmd)
+            else:
+                print("Not homed, please run home first!")
             
         elif input_str == "getpos":
-            cmd = "10 a0"                # Read current absolut position
-            result = operate(cmd)
-            while "DSC" in result and "Data 3 bytes" not in result:
-                result = operate(cmd)
-                time.sleep(0.1)
-
-            current_position = byte_to_pos(result[51:-3])
-            #print(pos_to_mm(current_position))
-
+            if homed:
+                cmd = "10 a0"                # Read current absolut position
+                result = comand_result(command=cmd, include="Data 3 bytes", exclude="DSC")
+                #print(result)
+                current_position = byte_to_pos(result[51:-3])
+                print("Current position: {} mm".format(round(pos_to_mm(current_position), 4)))
+            else:
+                print("Not homed, please run home first!")
 
         elif input_str == "exit" or input_str == "quit":
             break
@@ -146,5 +149,8 @@ def main():
 
         else:
             print("\"{}\" is invalid command".format(input_str))
+
+
+
 if __name__ == "__main__":
     main()
