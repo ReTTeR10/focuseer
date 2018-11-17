@@ -59,6 +59,7 @@ def main():
     4) getpos - get current position
     5) stop - stop moving
     6) exit or quit - exit programm
+    7) help - show this text
     ''')
 
 
@@ -80,6 +81,12 @@ def main():
 
 
         elif input_str == "home":
+
+            cmd = '10 80'
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
+            cmd = '10 86'
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
+
             cmd = "10 e1"                # check teminal swich
             result = comand_result(command=cmd, include="Data 1 bytes", exclude="DSC")
             
@@ -142,8 +149,25 @@ def main():
                 print("Not homed, please run home first!")
 
         elif input_str == "exit" or input_str == "quit":
-            break
+            cmd = '10 80'
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
+            cmd = '10 86'
+            result = comand_result(command=cmd, include="ACY", exclude="DSC")
+            exit(0)
         
+        elif input_str == "help":
+            print('''
+            Allowed commands: \n 
+            1) init - initialize controller
+            2) home - move focuseer to limit switch
+            3) move - move focuseer (need stop)
+            4) getpos - get current position
+            5) stop - stop moving
+            6) exit or quit - exit programm
+            7) help - show this text
+            ''')
+
+
         elif not input_str:
             pass
 
